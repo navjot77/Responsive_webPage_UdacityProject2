@@ -1,0 +1,140 @@
+
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+    /* zocial */
+[class*="zocial-"]:before {
+    font-family: 'zocial', sans-serif;
+}
+
+#social, #social a {
+    display: inline-block;
+    font-size: 2vw;
+    line-height: 1.5em;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+a {
+    color: #4183C4;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3d85c6;
+    text-decoration: underline;
+}
+
+div#social a {
+    margin: 0 1em 0 0;
+}
+
+div#social a:last-of-type {
+    margin: 0;
+}
+
+div#social {
+    line-height: 2em;
+}
+
+#social {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+.name h1 {
+    letter-spacing: 0.08em;
+    color: #2d3c49;
+    font-family: 'Raleway', sans-serif;
+    font-size: 4vw;
+    text-align: right;
+    font-weight: lighter;
+    line-height: 0.9em;
+}
+
+.header{
+    border-bottom: 0.3em solid #7d97ad;
+    margin-bottom: 2em;
+    padding-bottom: 1.5em;
+}
+
+.pull-left{
+    padding-right: 1px;
+}
+
+header:hover h1 {
+    color: #3d85c6;
+}
+
+.name h3 {
+    color: #2d3c49;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2vw;
+    font-weight: bolder;
+    margin: 0 0 1em 0;
+    text-align: right;
+}
+
+.supporting1 picture img {
+    width: 100%;
+}
+
+.supporting3 picture img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#logo {
+    height: 7vw;
+    margin: 2em 1em 0 0;
+    width: 7vw;
+    padding-left: 0px;
+}
+
+.name{
+    padding-right: 0px;
+    padding-top: 1.5em;
+}
+
+header:hover svg#logo {
+    -webkit-filter: drop-shadow(3px 3px 3px #ddd);
+    filter: drop-shadow(3px 3px 3px #ddd);
+}
+
+.supporting1, .supporting2, .supporting3, .header{
+    margin-right: 15%;
+    margin-left:  10%;
+}
+.supporting2{
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.supporting3{
+    border-bottom: 0.3em solid #2d3c49;
+}
+
+.no-padding {
+    padding-left: 0em !important;
+}
+
+.supporting2 h1{
+    color: #7d97ad;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2.7vw;
+    padding-left: 0.1em;
+}
+
+.featured-info{
+    color:#2d3c49;
+    text-align: center;
+    line-height: 0.8em;
+    font-size: 2.7vw;
+}
+
+.featured-info-link p{
+    font-size: 1.2vw;
+    text-align: center;
+}
